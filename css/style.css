@@ -1,0 +1,364 @@
+header video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+header .overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+@font-face {
+    font-family: ar-font;
+    src: url(../font/Cairo-Regular.ttf);
+}
+
+body header, section {
+    font-family: ar-font;
+}
+
+header .overlay .header-text h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    line-height: 46px;
+    margin-top: 100px;
+}
+
+header .overlay .header-text p {
+    font-size: 18px;
+    color: #5d5d5d;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+header.overlay.header-text {
+    margin-top: 7rem;
+}
+
+header .overlay .header-text .buttons {
+    font-family: ar-font;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 8px 25px;
+}
+
+header .overlay .header-text .buttons button:last-of-type:hover {
+    background-color: #0dcaf0;
+    ;
+    border-color: #25cff2;
+    color: #fff !important;
+    transition: all 0.5s ease;
+}
+
+header .overlay .product-img .img-label {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+header .overlay .product-img p {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+header .overlay .product-img p span {
+    display: block;
+}
+
+header .overlay .navbar {
+    margin-bottom: 26px;
+}
+
+section .edit .title h3 {
+    font-size: 36px;
+    color: #555555;
+    line-height: 120px;
+}
+
+section {
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+section .edit .title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 2px;
+    background-color: #0dcaf0;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+}
+
+section .edit .title {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+section .edit {
+    padding: 70px 0;
+    border-bottom: 3px solid #eeeeee;
+}
+
+section .edit .media .media-body h5 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0dcaf0;
+    border-right: 2px solid #0dcaf0;
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+
+section .feature .media .media-body p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+}
+
+section .edit .feature .media .media-body {
+    margin-right: 4rem;
+    margin-top: 70px;
+}
+
+section .feature:nth-of-type(even) .media .media-body h5 {
+    border-right: 0px;
+    border-left: 2px solid #0dcaf0;
+}
+
+section .feature:nth-of-type(even) .media .media-body {
+    text-align: left;
+    margin-left: 4rem;
+}
+
+section .container .title {
+    padding: 55px 0;
+}
+
+section .container .title h3 {
+    font-size: 40px;
+}
+
+section .container .title span {
+    font-size: 20px;
+    color: white;
+}
+
+.card-body {
+    font-family: ar-font;
+}
+
+section.faq {
+    padding: 55px 0;
+    background-color: white;
+}
+
+section .faq .title h3 {
+    font-size: 30px;
+    color: #555555;
+}
+
+section .faq .card {
+    margin-bottom: 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+section.faq .card .card-body {
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+section .faq .card .card-header h5 a {
+    font-size: 18px;
+    color: rgb(13, 202, 240);
+    display: block;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+}
+
+section .icons {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+section .faq .card .card-body {
+    font-size: 15px;
+    color: #b1b1b1;
+    line-height: 24px;
+    padding: 0 1.25rem 1.25rem;
+}
+
+section .faq .card .card-header h5 a:hover, section .faq .card .card-header h5 a:focus {
+    color: #0dcaf0a8;
+}
+
+section .faq .card .card-header h5 a.collapsed .fa-angle-up {
+    transform: rotate(180deg);
+}
+
+section.video {
+    min-height: 100vh;
+    position: relative;
+}
+
+section.video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100% !important;
+}
+#ovrl{
+    height: 758.58px !important;
+    padding-bottom: 0px;
+}
+
+section.video .overlay {
+    background-color: rgb(13, 202, 240, 0.7);
+    height:100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 0 !important;
+}
+
+section.video button {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    font-size: ar-font;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    transform: translate(50%, 50%);
+}
+
+section.video button span {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: auto auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    line-height: 110px;
+    margin-bottom: 50px;
+}
+
+section.contact {
+    background-color: #131313;
+    padding: 60px 0 40px;
+
+}
+section.contact .contact-us .title h4 {
+    font-size: 18px;
+    line-height: 50px;
+    color: #758594;
+}
+
+section.contact .contact-us form .form-group {
+    margin-bottom: 6px;
+}
+
+section.contact .contact-us form .form-group input, section.contact .contact-us form .form-group textarea {
+    border-radius: 3px;
+    background-color: #242424;
+    font-size: 18px;
+    line-height: 35px;
+    color: #aeadad;
+    font-family: ar-font;
+    border-color: black;
+}
+
+section.contact .contact-us form button {
+    font-size: 18px;
+    color: white;
+    font-family: ar-font;
+    background-color: rgb(13, 202, 240, 0.7);
+    padding: 7px 24px;
+}
+
+section.contact .contact-us form .error {
+    color: red;
+}
+
+section.contact .other-product .title h4 {
+    font-size: 18px;
+    color: #758594;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+section.contact .other-product .media .media-body h5 {
+    font-size: 18px;
+    color: #aeadad;
+    margin-bottom: 15px;
+}
+
+section.contact .other-product .media .media-body p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #737373;
+}
+
+section.contact .other-product .media {
+    margin-bottom: 15px;
+}
+
+section.contact .other-product .media img {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #1d1d1d;
+    line-height: 80px;
+}
+
+footer ul li a {
+    color: grey;
+    text-align: center;
+    line-height: 90px;
+    display: block;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-left: 10px;
+}
+
+footer .copyright p {
+    font-size: 25px;
+    color: #919191;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    header {
+        overflow-x: hidden;
+    }
+    .product-img img:first-of-type {
+        width: 120%;
+    }
+    .buttons {
+        margin-bottom: 50px;
+    }
+    section.features .feature .media img {
+        margin: 0 2rem;
+    }
+}
